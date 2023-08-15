@@ -1,0 +1,145 @@
+#Skills{
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.skill-container {
+ 
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top:-100px;
+  width: 80vw;
+  height: 80vh;
+  position:relative;
+  margin-left: 140px;  
+}
+
+.skill-box {
+  color: white;;
+  margin: 10px; /* Add some margin between the boxes */
+}
+
+.skill-form {
+  color: white;
+  background-color: black;
+  color: black;
+  width: 420px;
+  box-shadow:  rgb(0 0 0 / 16%) 1px 1px 10px; 
+  justify-content:center;
+  position:relative;
+  align-items: center; 
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 15px;
+  
+}
+
+.skill-content {
+  color: white;
+  background-color: black;
+  /* display: flex; */
+  /* flex-direction: row; */
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.skill-title {
+  color: white;
+  background-color: black;
+  text-align: center;
+  
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.skill-split{
+  color: white;
+  background-color: black;
+  display:flex;
+  /* justify-content:center; */
+  column-gap:5rem;
+  
+}
+
+.skill-group {
+  color: white;
+  background-color: black;
+  display:grid;
+  align-items:flex-start;
+  row-gap:1rem;
+
+}
+
+.skill-data{
+  color: white;
+  background-color: black;
+  display:flex;
+  column-gap:0.5rem;
+}
+
+
+.skill-name{
+  text-decoration: double;
+  color: white;
+  background-color: black;
+  font-size:var(--normal-font-size);
+  font-weight: var(--font-medium);
+  line-height:18px;
+}
+#skill-level{
+  color: white;
+  background-color: black;
+  padding-left: 10px;
+  font-size: var(--tiny-font-size);
+}
+
+.skill-data i {
+  color: white;
+  background-color: black;
+  font-size: 22px; /* Adjust the icon size as needed */
+}
+
+
+#img1{
+  background-image: url("html.png");
+  width: 48px;
+  height: 48px;
+}
+#img2{
+  background-image: url("css.png");
+  width: 48px;
+  height: 48px;
+}
+#img3{
+  background-image: url("javascript.png");
+  width: 48px;
+  height: 48px;
+}
+#img4{
+  background-image: url("react.png");
+  width: 48px;
+  height: 48px;
+}
+
+#img5{
+  background-image: url("python.png");
+  width: 48px;
+  height: 48px;
+}
+#img6{
+  background-image: url("java.png");
+  width: 48px;
+  height: 48px;
+}
+#img7{
+  background-image: url("mysql.png");
+  width: 48px;
+  height: 48px;
+}
+#img8{
+  background-image: url("node.png");
+  width: 48px;
+  height: 48px;
+}

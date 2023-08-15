@@ -1,0 +1,76 @@
+#Style{
+  background-color: rgb(0, 0, 0);
+
+}
+.nav{
+    background-color: aqua;
+    color:white;
+}
+.me{
+  color: white;
+}
+.me-auto{
+  color: white;
+  padding-left: 50%;
+}
+.me-auto:link,.me-auto:hover,.me-auto:active,.me-auto:visited{
+  color:white;
+}
+#EE{
+padding-left: 35%;
+}
+.Navvbar{
+  /* background-color: black; */
+  color: red;
+}
+#text-center, #Auth-form-title{
+  background-color: black;
+  color:white;
+}
+.Auth-form-container {
+    margin-left: 100px;
+    top:-10px;
+    display: flex;
+    justify-content:center;
+    text-align: justify;
+    align-items: center; 
+    left: 30%;
+    width: 100vh;
+    height: 80vh;
+  }
+  .Auth-form-container2 {
+    position:relative;
+    top:40px;
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+    left:10%;
+    width: 80vw;
+    height: 80vh;
+  }
+  
+  
+  .Auth-form {
+    width: 820px;
+    box-shadow:  rgb(0 0 0 / 16%) 1px 1px 10px; 
+    justify-content:center;
+    position:relative;
+    align-items: center; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    background-color:black;
+  }
+  
+  .Auth-form-content {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+  
+  .Auth-form-title {
+    text-align: justify;
+    margin-bottom: 1em;
+    font-size: 34px;
+    color: rgb(34, 34, 34);
+    font-weight: 800;
+  }
